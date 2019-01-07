@@ -1,0 +1,12 @@
+<resources>
+    <string name="title_activity_signup">SignUpActivity</string>
+    <string name="sign_up_title">Sign Up</string>
+    <string name="email">Email</string>
+    <string name="username">Username</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="password">Password</string>
+    <string name="sign_up_now_button">Let\'s Go!</string>
+    <string name="signup_to_signin_instruction_textview">Go to Sign In?</string>
+    <string name="sign_in_title">Sign In</string>
+    <string name="your_stock">Your Stock</string>
+</resources>
