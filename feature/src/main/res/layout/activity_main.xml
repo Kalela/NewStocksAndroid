@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#fafafa"
-    tools:context=".MainActivity">
+    tools:context=".main_dashboard.MainActivity">
 
     <TextView
         android:layout_width="wrap_content"
@@ -21,5 +21,17 @@
         android:layout_alignParentLeft="true">
 
     </android.support.v7.widget.RecyclerView>
+
+    <TextView
+        android:id="@+id/allUsersTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="138dp"
+        android:layout_marginEnd="51dp"
+        android:text="@string/all_users"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="51dp" />
 
 </RelativeLayout>
