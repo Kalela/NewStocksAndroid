@@ -6,7 +6,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
 
-import com.kalela.philipkalela.newstock.feature.all_users_dashboard.AllUsersActivity;
+import com.kalela.philipkalela.newstock.feature.all_users_dashboard.view.AllUsersActivity;
 import com.kalela.philipkalela.newstock.feature.R;
 
 public class MainActivity extends AppCompatActivity {

@@ -38,6 +38,18 @@
             android:textSize="30sp" />
 
         <EditText
+            android:id="@+id/signupFullNameEditText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="222dp"
+            android:ems="10"
+            android:hint="@string/fullName"
+            android:inputType="textPersonName"
+            app:layout_constraintTop_toBottomOf="@id/signUpTitleTextView" />
+
+        <EditText
             android:id="@+id/signupEmailEditText"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -46,7 +58,7 @@
             android:ems="10"
             android:hint="@string/email"
             android:inputType="textEmailAddress"
-            app:layout_constraintTop_toBottomOf="@id/signUpTitleTextView" />
+            app:layout_constraintTop_toBottomOf="@id/signupFullNameEditText" />
 
         <EditText
             android:id="@+id/signupUsernameEditText"
@@ -61,28 +73,39 @@
             app:layout_constraintTop_toBottomOf="@id/signupEmailEditText" />
 
         <EditText
-            android:id="@+id/signupConfirmPasswordEditText"
+            android:id="@+id/signupPhoneEditText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="222dp"
+            android:ems="10"
+            android:hint="@string/phone"
+            app:layout_constraintTop_toBottomOf="@id/signupUsernameEditText" />
+
+        <EditText
+            android:id="@+id/signUpPasswordEditText"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentBottom="true"
             android:layout_centerHorizontal="true"
             android:layout_marginBottom="72dp"
             android:ems="10"
-            android:hint="@string/confirm_password"
+            android:hint="@string/password"
             android:inputType="textPassword"
-            app:layout_constraintTop_toBottomOf="@id/signupUsernameEditText" />
+            app:layout_constraintTop_toBottomOf="@id/signupPhoneEditText" />
 
         <EditText
-            android:id="@+id/signupPasswordEditText"
+            android:id="@+id/signupConfirmPasswordEditText"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentBottom="true"
             android:layout_centerHorizontal="true"
             android:layout_marginBottom="146dp"
             android:ems="10"
-            android:hint="@string/password"
+            android:hint="@string/confirm_password"
             android:inputType="textPassword"
-            app:layout_constraintTop_toBottomOf="@id/signupConfirmPasswordEditText" />
+            app:layout_constraintTop_toBottomOf="@id/signUpPasswordEditText" />
 
         <Button
             android:id="@+id/signUpNowButton"
@@ -92,7 +115,7 @@
             android:layout_centerHorizontal="true"
             android:layout_marginBottom="16dp"
             android:text="@string/sign_up_now_button"
-            app:layout_constraintTop_toBottomOf="@id/signupPasswordEditText" />
+            app:layout_constraintTop_toBottomOf="@id/signupConfirmPasswordEditText" />
 
         <TextView
             android:id="@+id/signupToSigninInstructionTextView"

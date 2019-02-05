@@ -12,4 +12,6 @@
     <string name="your_stock">Your Stock</string>
     <string name="all_users">All Users</string>
     <string name="users_loading_unsuccessful">Users did not load. Check connection.</string>
+    <string name="fullName">Full Name</string>
+    <string name="phone">Phone</string>
 </resources>

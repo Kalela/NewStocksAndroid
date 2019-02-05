@@ -8,7 +8,7 @@ import android.widget.Button;
 import android.widget.TextView;
 
 import com.kalela.philipkalela.newstock.feature.R;
-import com.kalela.philipkalela.newstock.feature.register.SignupActivity;
+import com.kalela.philipkalela.newstock.feature.register.view.SignupActivity;
 
 public class LoginActivity extends AppCompatActivity {
     TextView gotToSignUpLink;

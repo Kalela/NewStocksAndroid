@@ -13,7 +13,7 @@ public class SplashActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_splash);
 
-        Thread myThread = new Thread() {
+        Thread splashDelayThread = new Thread() {
             @Override
             public void run() {
                 try {
@@ -27,6 +27,6 @@ public class SplashActivity extends AppCompatActivity {
             }
         };
 
-        myThread.start();
+        splashDelayThread.start();
     }
 }
